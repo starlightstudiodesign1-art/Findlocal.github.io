@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>FindLocal Zamboanga del Sur - Price Update Mais, Bugas, Baboy Every Week</title>
+<meta name="description" content="FindLocal Zamboanga del Sur - Check presyo sa mais, bugas, copra, baboy, manok sa Pagadian, Dumingag, Molave, Aurora. Price refresh every week. Free.">
+<meta name="keywords" content="FindLocal Zamboanga del Sur, presyo mais Pagadian, presyo bugas Zamboanga del Sur, Dumingag price, Molave price">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+  <div><b>FindLocal</b><br><small>ZAMBOANGA DEL SUR</small></div>
+  <span>Updated: Nov 12, 2026</span>
+</header>
+
+<div class="hero">
+  <h1>Know the price<br><em>before you go to palengke.</em></h1>
+  <p>Mais, Bugas, Baboy, Manok, Isda, Gulay - Presyo sa Pagadian, Dumingag, Molave, Aurora. Libre. Every week.</p>
+  <div>
+    <span class="badge">📍 Pagadian City Public Market</span>
+    <span class="badge">🕒 Refresh Every Saturday</span>
+    <span class="badge">✅ Source: DA-ZamPen</span>
+  </div>
+  <div class="search-box">
+    <input id="searchInput" placeholder="Search: bugas, mais, pork, bangus..." onkeyup="filterAll()">
+    <button onclick="filterAll()">Search</button>
+  </div>
+</div>
+
+<div class="wrap">
+  <div class="tabs" id="tabs">
+    <button class="active" onclick="setCat('All',this)">All Prices</button>
+    <button onclick="setCat('Rice',this)">Rice</button>
+    <button onclick="setCat('Corn',this)">Corn</button>
+    <button onclick="setCat('Fish',this)">Fish</button>
+    <button onclick="setCat('Livestock',this)">Livestock</button>
+    <button onclick="setCat('Poultry',this)">Poultry</button>
+    <button onclick="setCat('Vegetables',this)">Vegetables</button>
+    <button onclick="setCat('Spices',this)">Spices</button>
+    <button onclick="setCat('Fruits',this)">Fruits</button>
+    <button onclick="setCat('Basic',this)">Basic Goods</button>
+    <button onclick="showBusinesses(this)">🏪 Businesses</button>
+  </div>
+
+  <div class="info">
+    <b>📍 Pagadian City Public Market</b> - Prices from DA-ZamPen Daily Price Watch, Nov 12, 2026.<br>
+    Dumingag / Molave / Aurora usually <b>₱2 - ₱5 lower</b>. Price refresh every Saturday. If you are a vendor and price is different, message our Facebook page.
+  </div>
+
+  <div id="priceSection">
+    <div class="section-title"><span>💰 Today's Prices <small id="count"></small></span><small>per kg unless noted</small></div>
+    <div class="grid" id="priceGrid"></div>
+  </div>
+
+  <div id="bizSection" class="hidden">
+    <div class="section-title"><span>🏪 Local Businesses in Zamboanga del Sur</span><small>8 listings</small></div>
+    <div class="grid" id="bizGrid"></div>
+    <a class="fb-btn" href="https://facebook.com" target="_blank">📢 Want your business listed here? Message us - ₱100/month Featured</a>
+  </div>
+
+  <a class="fb-btn" href="https://facebook.com" target="_https://www.facebook.com/profile.php?id=61596192166887">Follow FindLocal Zamboanga del Sur on Facebook</a>
+</div>
+
+<footer>
+  <b>FindLocal Zamboanga del Sur</b><br>
+  Made for farmers, vendors, and families in Pagadian, Dumingag, Molave, Aurora, Mahayag, Sominot, and all of ZamboSur.<br>
+  Source: DA Zamboanga Peninsula Daily Price Watch • Not official government price, for guide only.<br>
+  © 2026 FindLocal Zamboanga del Sur
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

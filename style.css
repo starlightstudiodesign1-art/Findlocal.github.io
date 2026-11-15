@@ -1,0 +1,42 @@
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Segoe UI',Arial,sans-serif}
+body{background:#f6f7f9;color:#1a1a1a;padding-bottom:80px}
+header{background:#0f7a3d;color:white;padding:14px 16px;position:sticky;top:0;z-index:10;display:flex;justify-content:space-between;align-items:center}
+header b{font-size:19px;line-height:1}
+header small{font-size:11px;opacity:.9}
+header span{background:white;color:#0f7a3d;padding:6px 10px;border-radius:20px;font-size:12px;font-weight:700}
+.hero{background:linear-gradient(135deg,#0f7a3d,#0aa654);color:white;padding:28px 16px 20px;text-align:center}
+.hero h1{font-size:28px;line-height:1.1}
+.hero h1 em{color:#ffe45e;font-style:normal}
+.hero p{margin:10px 0 16px;opacity:.95;font-size:14px}
+.hero .badge{display:inline-block;background:rgba(255,255,255,.2);padding:6px 12px;border-radius:20px;font-size:12px;margin:2px}
+.search-box{max-width:600px;margin:16px auto 0;background:white;border-radius:12px;padding:6px;display:flex;gap:6px}
+.search-box input{flex:1;border:none;outline:none;padding:10px;font-size:15px}
+.search-box button{background:#ff9f00;border:none;padding:10px 16px;border-radius:10px;font-weight:700;cursor:pointer}
+.wrap{max-width:1100px;margin:0 auto;padding:16px}
+.tabs{display:flex;gap:8px;overflow-x:auto;padding-bottom:8px}
+.tabs button{white-space:nowrap;border:1px solid #ddd;background:white;padding:8px 14px;border-radius:20px;cursor:pointer;font-weight:600}
+.tabs button.active{background:#0f7a3d;color:white;border-color:#0f7a3d}
+.info{background:#fff7d6;border:1px solid #ffe45e;padding:12px;border-radius:12px;font-size:13px;margin:10px 0;line-height:1.5}
+.info b{color:#0f7a3d}
+.section-title{font-size:20px;margin:18px 0 10px;display:flex;justify-content:space-between;align-items:center}
+.section-title small{font-size:12px;color:#777;font-weight:400}
+.grid{display:grid;grid-template-columns:repeat(2,1fr);gap:10px}
+@media(min-width:700px){.grid{grid-template-columns:repeat(4,1fr)} .hero h1{font-size:36px}}
+.card{background:white;border-radius:14px;padding:14px;border:1px solid #eee}
+.card .cat{font-size:11px;color:#0f7a3d;font-weight:700;text-transform:uppercase;letter-spacing:.5px}
+.card h3{font-size:15px;margin:4px 0;line-height:1.3;min-height:38px}
+.card .price{font-size:20px;font-weight:800;color:#0f7a3d}
+.card .unit{font-size:12px;color:#777;font-weight:400}
+.card .area{font-size:11px;color:#888;margin-top:6px}
+.biz-card{background:white;border-radius:16px;overflow:hidden;border:1px solid #eee}
+.biz-top{padding:14px}
+.biz-top .cat{font-size:11px;color:#ff6b00;font-weight:800;text-transform:uppercase}
+.biz-top h3{font-size:17px;margin:4px 0;line-height:1.2}
+.biz-top p{font-size:13px;color:#555;line-height:1.5;margin:4px 0}
+.biz-top .meta{font-size:12px;color:#777;margin-top:8px;line-height:1.6}
+.biz-bottom{background:#f6f7f9;padding:10px 14px;display:flex;justify-content:space-between;align-items:center}
+.biz-bottom b{color:#0f7a3d}
+.biz-bottom span{background:#ffe45e;padding:4px 8px;border-radius:20px;font-size:12px;font-weight:700}
+footer{text-align:center;padding:20px;font-size:12px;color:#777;line-height:1.6}
+.fb-btn{display:block;max-width:400px;margin:16px auto;background:#1877f2;color:white;text-align:center;padding:12px;border-radius:12px;text-decoration:none;font-weight:700}
+.hidden{display:none}
